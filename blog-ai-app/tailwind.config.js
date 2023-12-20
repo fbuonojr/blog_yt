@@ -29,5 +29,8 @@ module.exports = {
       md: "1060px",
     }
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/line-clamp"),
+    require("@tailwindcss/typography"),
+  ],
 }
